@@ -1,0 +1,14 @@
+.wrapperHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logoText {
+    color: #363636;
+    
+}
+.wrapperLogo {
+   position: relative;;
+}
