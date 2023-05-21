@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             <Logo></Logo>
           </div>
           <div>
-            <span>Библиотека</span>
+            <span className={classes.title}>Библиотека</span>
           </div> 
           <div>
           <span>Привет, Иван</span>

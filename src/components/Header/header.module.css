@@ -4,7 +4,15 @@
     align-items: center;
     
 }
-
+.title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.1px;
+color: #363636;
+}
 .logoText {
     color: #363636;
     

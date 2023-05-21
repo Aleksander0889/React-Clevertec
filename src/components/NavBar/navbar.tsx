@@ -13,7 +13,7 @@ const MenuBar = () => {
           </div>
 
             <div>
-              <span>все книги</span>
+              <span>Все книги</span>
             </div>
             <ul>
               <li>Бизнес-книги</li>
@@ -31,11 +31,11 @@ const MenuBar = () => {
               <li>Фантастика</li>
               <li>Юмористическая литература</li>
             </ul>
-            <div>
-              <span>Правила пользователя</span>
+            <div className={classes.linkWrapper}>
+                <a href="#" ><span className={classes.linkText}>Правила пользователя</span></a>
             </div>
-            <div>
-              <span>Договор оферты</span>
+            <div className={classes.linkWrapper}>
+              <a href="#" ><span className={classes.linkText}>Договор оферты</span></a>
             </div>          
 
         </div>
