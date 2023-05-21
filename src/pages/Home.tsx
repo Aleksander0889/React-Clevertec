@@ -3,17 +3,14 @@ import MenuBar from "../components/NavBar/navbar";
 import Footer from "../components/Footer/fotter";
 import NavBar from "../components/Navigation/navigation"
 import { display } from "@mui/system";
+import Mycards from "../components/Mycard/Mycard";
+import MyBotton from "../components/MyButton/MyButton";
 
 function Home() {
   return (
     <>
-  <Header props={""}></Header>
-  <div style={{display:"flex"}}>
-    <MenuBar></MenuBar>
     <NavBar></NavBar>
-  </div>
-  
-  <Footer></Footer>
+    <Mycards></Mycards>  
   </>
   )
 }

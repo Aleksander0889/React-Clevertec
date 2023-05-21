@@ -1,5 +1,6 @@
 .menuwrapper {
 width: 279px;
+
 display: flex;
 flex-direction: column;
 margin-top: 47px;

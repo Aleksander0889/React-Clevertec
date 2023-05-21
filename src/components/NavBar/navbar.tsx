@@ -1,11 +1,12 @@
 import React from "react";
 import classes from "./navbar.module.css"
+import { Link } from "react-router-dom";
 
 
  
 const MenuBar = () => {
     return ( 
-      
+      <>
         <div className={classes.menuwrapper} >
           <div>
             <span>Витрина книг</span>
@@ -32,14 +33,14 @@ const MenuBar = () => {
               <li>Юмористическая литература</li>
             </ul>
             <div className={classes.linkWrapper}>
-                <a href="#" ><span className={classes.linkText}>Правила пользователя</span></a>
+                <Link to="rules" ><span className={classes.linkText}>Правила пользователя</span></Link>
             </div>
             <div className={classes.linkWrapper}>
-              <a href="#" ><span className={classes.linkText}>Договор оферты</span></a>
+              <Link to="contract" ><span className={classes.linkText}>Договор оферты</span></Link>
             </div>          
 
         </div>
-        
+        </>
      );
 }
  
