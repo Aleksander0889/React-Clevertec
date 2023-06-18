@@ -8,10 +8,14 @@ import MyBotton from "../components/MyButton/MyButton";
 
 function Home() {
   return (
+    
     <>
-    <NavBar></NavBar>
-    <Mycards></Mycards>  
-  </>
+    <div>
+      <NavBar/>
+      <Mycards/>
+      </div>
+    </>  
+  
   )
 }
 

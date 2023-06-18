@@ -1,0 +1,32 @@
+.hamburgerButton {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .hamburgerButtonTop,
+  .hamburgerButtonMiddle,
+  .hamburgerButtonBottom {
+    height: 5px;
+    background: black;
+    border-radius: 5px;
+    margin: 3px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+  }
+  
+  .hamburgerButton:hover .hamburgerButtonTop {
+    transform: rotate(45deg);
+  }
+  
+  .hamburgerButton:hover .hamburgerButtonMiddle {
+    opacity: 0;
+  }
+  
+  .hamburgerButton:hover .hamburgerButtonBottom {
+    transform: rotate(-45deg);
+  }

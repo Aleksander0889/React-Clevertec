@@ -1,9 +1,12 @@
 .menuwrapper {
-width: 279px;
-
+width: 65%;
+margin-right: 6px;
 display: flex;
 flex-direction: column;
 margin-top: 47px;
+}
+.wrapperItem {
+    padding-left: 20px;
 }
 
 li {

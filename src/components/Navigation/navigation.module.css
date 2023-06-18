@@ -1,21 +1,21 @@
 .inputWrapper {
     display: flex;
     margin-top: 47px;
-    margin-left: 30px;
+    
+    position: relative;
+    justify-content: space-between;
 }
 
 .Myinput {
-    
+    display: block;
     width: 350px;
     height: 38px;
     box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
     border-radius: 599px;
-    position: relative;
     border: 0px;
 }
 
 .Myinput::placeholder {
-position: relative;
 padding-left: 40px;
 font-family: 'Montserrat';
 font-size: 14px;
@@ -23,8 +23,7 @@ font-size: 14px;
 
 .iconSerch {
     position: absolute;
-    left: 445px;
-    top: 140px
+    top: 5px;
 }
 
 .Mybutton{

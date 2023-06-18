@@ -16,7 +16,7 @@ const MenuBar = () => {
             <div>
               <span>Все книги</span>
             </div>
-            <ul>
+            <ul className={classes.wrapperItem}>
               <li>Бизнес-книги</li>
               <li>Детективы</li>
               <li>Дтские книги</li>

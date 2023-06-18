@@ -11,14 +11,18 @@ const Mycards: React.FC<MycardsProps> = () => {
             <div>
                 <img src="./../../../img/image.png" alt="" />
              </div>
-             <div>
-                <img src="" alt="" />
+             <div className={classes.WraperStar}>
+                <img src="./../../../img/Star 1.png" alt="" />
+                <img src="./../../../img/Star 1.png" alt="" />
+                <img src="./../../../img/Star 1.png" alt="" />
+                <img src="./../../../img/Star 1.png" alt="" />
+                <img src="./../../../img/Star 1.png" alt="" />
              </div>
              <div>
-                <span>Грокаем алгоритмы. Иллюстрированное пособие для </span>
+                <p className={classes.bookName}>Грокаем алгоритмы. Иллюстрированное пособие для </p>
              </div>
              <div>
-                <span>Адитья Бхаргава, 2019</span>
+                <p className={classes.bookAutor}>Адитья Бхаргава, 2019</p>
              </div>
              <MyButton>Забронировать</MyButton>
         </div>
